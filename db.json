@@ -1,40 +1,21 @@
 {
   "users": [
     {
-      "name": "Quang",
-      "id": "XF0LdY99"
-    },
-    {
-      "name": "",
-      "id": "3zhKbbQC"
-    },
-    {
-      "name": "Linh",
-      "id": "6WML0GHE"
-    },
-    {
-      "name": "Dung",
-      "id": "z5c9PyIE"
-    },
-    {
-      "name": "Chiu",
-      "id": "sZj0SQCj"
-    },
-    {
-      "name": "aaaa",
-      "id": "_8aaBaAt"
-    },
-    {
-      "name": [
-        "Nam",
-        "123123123"
-      ],
-      "id": "nSqIq5Lf"
-    },
-    {
       "name": "Hà",
       "phone": "1234556677",
       "id": "3yTv-HH1"
+    },
+    {
+      "name": "Dũng",
+      "phone": "1234556677",
+      "id": "3yTv-HH1",
+      "email": "lmdung94@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Linh",
+      "phone": "",
+      "id": "KCS0LX3J"
     }
   ]
 }
