@@ -1,4 +1,5 @@
 const db = require('../db');
+const md5 = require('md5');
 
 module.exports.login = (req, res) => {
     res.render('auth/login');
@@ -16,7 +17,7 @@ module.exports.portLogin = (req, res) => {
         })
         return;
     }
-    if (user.password !== password) {
+    if (user.password !== md5(password)) {
         res.render('auth/login', {
             errors: [
                 'Wrong password !'
@@ -25,6 +26,8 @@ module.exports.portLogin = (req, res) => {
         })
         return;
     }
-    res.cookie('userID', user.id)
+    res.cookie('userID', user.id, {
+        signed: true
+    })
     res.redirect('/users')
 };
