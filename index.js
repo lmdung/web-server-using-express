@@ -20,7 +20,7 @@ app.get('/', (request, response) => {
         name: "",
     });
 })
-app.use('/users', authMiddleware.requireAuth, userRouter);
+app.use('/users',authMiddleware.requireAuth, userRouter);
 app.use('/auth', authRouter);
 
 
