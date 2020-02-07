@@ -17,5 +17,31 @@
       "phone": "",
       "id": "KCS0LX3J"
     }
+  ],
+  "products": [
+    {
+      "id": "1e28c52d-821c-4e5b-b507-670fc845a6aa",
+      "name": "Percy Chatan",
+      "images": "https://loremflickr.com/320/240/girl/all",
+      "description": "vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis"
+    },
+    {
+      "id": "dfe867ab-7a74-4bc2-a3f5-d90e7a15ba0e",
+      "name": "Kinsley Cardiff",
+      "images": "https://loremflickr.com/320/240/girl/all",
+      "description": "nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam"
+    },
+    {
+      "id": "95c3ef19-5895-4620-abf7-c6af2f6dd86f",
+      "name": "Nancy Mines",
+      "images": "https://loremflickr.com/320/240/girl/all",
+      "description": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor"
+    },
+    {
+      "id": "069c4330-91c1-4e1d-9795-3a1c906ad9b2",
+      "name": "Bartel Kitchinghan",
+      "images": "https://loremflickr.com/320/240/girl/all",
+      "description": "id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus"
+    }
   ]
 }
