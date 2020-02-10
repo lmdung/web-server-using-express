@@ -1,32 +1,30 @@
 {
   "users": [
     {
-      "name": "Hà",
-      "phone": "1234556677",
-      "id": "3yTv-HH1"
-    },
-    {
       "name": "Dũng",
       "phone": "1234556677",
       "id": "3yTv-HH1",
       "email": "lmdung94@gmail.com",
-      "password": "e10adc3949ba59abbe56e057f20f883e"
+      "password": "e10adc3949ba59abbe56e057f20f883e",
+      "avatar": "uploads/9a4ef5ab33f32c0b8509311709762fa0"
     },
     {
-      "name": "Hai",
+      "name": "Vinh",
+      "phone": "123",
+      "id": "cs01N9h3",
+      "avatar": "\\uploads\\ad57f92e4d6df818742586403dcaa0ec"
+    },
+    {
+      "name": "Huyen",
+      "phone": "123",
+      "id": "FHzHby2E",
+      "avatar": "uploads/e232062254509514934d840b434727ad"
+    },
+    {
+      "name": "Linh",
       "phone": "1234556677",
-      "id": "0BihMUHF"
-    },
-    {
-      "name": "Toan",
-      "phone": "123",
-      "id": "TSiK_LrR"
-    },
-    {
-      "name": "Hoa",
-      "phone": "123",
-      "id": "AaSmnl8C",
-      "avatar": ""
+      "id": "BejCi919",
+      "avatar": "uploads/fad54bd9d00cf91128939d87fbe96cd8"
     }
   ],
   "products": [
@@ -653,6 +651,17 @@
       "name": "Krystle Claricoates",
       "images": "https://loremflickr.com/320/240/girl/all",
       "description": "vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ez7pX5Cz",
+      "cart": {
+        "1e28c52d-821c-4e5b-b507-670fc845a6aa": 26,
+        "dfe867ab-7a74-4bc2-a3f5-d90e7a15ba0e": 8,
+        "95c3ef19-5895-4620-abf7-c6af2f6dd86f": 16,
+        "069c4330-91c1-4e1d-9795-3a1c906ad9b2": 1
+      }
     }
   ]
 }

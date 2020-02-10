@@ -7,10 +7,6 @@ var router = express.Router();
 var upload = multer({ dest: './public/uploads/' })
 
 router.get('/', controller.index);
-router.get('/cookie', (req, res, next) => {
-    res.cookie('user-id', 123)
-    res.send('hello')
-})
 router.get('/search', controller.search);
 router.get('/create', controller.create);
 router.get('/:id', controller.viewByID);

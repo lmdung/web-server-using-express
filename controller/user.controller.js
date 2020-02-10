@@ -28,6 +28,7 @@ module.exports.viewByID = (req, res) => {
 module.exports.postCreate = (req, res) => {
     req.body.id = shortid.generate();
     // req.body.avatar = req.file.path.split('/').slice(1).join('/');
+    req.body.avatar = req.file.path.split('\\').slice(1).join('/');
     // kiem tra lai
     db.get('users').push(req.body).write();
     res.redirect('/users');
