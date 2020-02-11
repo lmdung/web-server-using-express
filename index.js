@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser')
 var cookieParser = require('cookie-parser')
@@ -6,6 +7,8 @@ const userRouter = require('./routers/user.router')
 const authRouter = require('./routers/auth.router')
 const productsRouter = require('./routers/products.router')
 const cartRouter = require('./routers/cart.router')
+var mongoose = require('mongoose');
+mongoose.connect(process.env.MONGO_URL);
 
 const authMiddleware = require('./middleware/auth.middleware')
 const sessionMiddleware = require('./middleware/session.middleware')
