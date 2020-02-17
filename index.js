@@ -7,6 +7,7 @@ const userRouter = require('./routers/user.router')
 const authRouter = require('./routers/auth.router')
 const productsRouter = require('./routers/products.router')
 const cartRouter = require('./routers/cart.router')
+const apiProductsRoutes = require('./api/routes/product.route')
 var mongoose = require('mongoose');
 mongoose.connect(process.env.MONGO_URL);
 
@@ -32,6 +33,7 @@ app.use('/users',authMiddleware.requireAuth, userRouter);
 app.use('/auth', authRouter);
 app.use('/products', productsRouter)
 app.use('/cart', cartRouter)
+app.use('/api/products', apiProductsRoutes)
 
 app.use(express.static('public'));
 app.listen(port, () => {
